@@ -1,0 +1,42 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: green;
+  background-color: #d8da3d;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+}
+
+h1 {
+  font-family: Helvetica, Geneva, Arial, sans-serif; /* Simplificado y más común */
+}
+
+ul.navbar li {
+  background-color: white; /* Simplificado */
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black; /* ¿Quizás era 1px en lugar de 1em? */
+}
+
+ul.navbar a {
+  text-decoration: none;
+  color: green; /* Hereda del body pero se repite por claridad */
+}
+
+ul.navbar a:visited {
+  color: blue; /* Hereda del body pero se repite por claridad */
+}
+
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted;
+}
